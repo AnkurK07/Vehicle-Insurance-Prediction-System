@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "Vehicle Insurance Prediction System"
+authors = [{name = "Ankur Kumar", email = "kumarankur0006@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
